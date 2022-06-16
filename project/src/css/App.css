@@ -22,17 +22,17 @@ option {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #FFF;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #F6AD55;
+    background: #204F4F;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #ce7509;
+    background: #204F4F;
 }
 
 /* Timeline */
@@ -41,7 +41,7 @@ option {
     flex-direction: column;
     position: relative;
     margin: 40px 0;
-    color: #ce7509;
+    color: #204F4F;
 }
 
 .timeline-container::after {

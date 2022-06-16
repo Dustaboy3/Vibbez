@@ -2,6 +2,7 @@
 import { Box, Flex, Icon, Text } from "@chakra-ui/react";
 import PropTypes from "prop-types";
 import React from "react";
+import Header from "../../components/header/header";
 import Footer from "../../components/footer/Footer";
 import FixedPlugin from "../../components/fixedPlugin/FixedPlugin";
 // Custom components
@@ -25,6 +26,7 @@ function AuthIllustration(props) {
                 mx='auto'
                 justifyContent='start'
                 direction='column'>
+                <Header />
                 <NavLink
                     to='/home'
                     style={() => ({
