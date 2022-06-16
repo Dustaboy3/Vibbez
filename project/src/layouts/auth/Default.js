@@ -2,7 +2,7 @@
 import { Box, Flex, Icon, Text } from "@chakra-ui/react";
 import PropTypes from "prop-types";
 import React from "react";
-import Footer from "../../components/footer/FooterAuth";
+import Footer from "../../components/footer/Footer";
 import FixedPlugin from "../../components/fixedPlugin/FixedPlugin";
 // Custom components
 import { NavLink } from "react-router-dom";
@@ -19,14 +19,10 @@ function AuthIllustration(props) {
                     sm: "initial",
                     md: "unset",
                     lg: "100vh",
-                    xl: "97vh",
+                    xl: "100vh",
                 }}
                 w='100%'
-                maxW={{ md: "66%", lg: "1313px" }}
                 mx='auto'
-                pt={{ sm: "50px", md: "0px" }}
-                px={{ lg: "30px", xl: "0px" }}
-                ps={{ xl: "70px" }}
                 justifyContent='start'
                 direction='column'>
                 <NavLink
@@ -57,7 +53,6 @@ function AuthIllustration(props) {
                 </Box>
                 <Footer />
             </Flex>
-            <FixedPlugin />
         </Flex>
     );
 }

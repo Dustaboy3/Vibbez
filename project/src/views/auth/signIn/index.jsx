@@ -27,10 +27,10 @@ import { RiEyeCloseLine } from "react-icons/ri";
 
 function SignIn() {
     // Chakra color mode
-    const textColor = useColorModeValue("navy.700", "white");
+    const textColor = "brand.200";
     const textColorSecondary = "gray.400";
     const textColorDetails = useColorModeValue("navy.700", "secondaryGray.600");
-    const textColorBrand = useColorModeValue("orange.300", "white");
+    const textColorBrand = "brand.200";
     const brandStars = useColorModeValue("orange.300", "orange.300");
     const googleBg = useColorModeValue("secondaryGray.300", "whiteAlpha.200");
     const googleText = useColorModeValue("navy.700", "white");
