@@ -2,4 +2,10 @@
     overflow: hidden;
     padding: 2.5vh 10vh;
     z-index: 3;
+    justify-content: center;
+}
+
+.location {
+    align-self: center;
+    text-align: center;
 }
