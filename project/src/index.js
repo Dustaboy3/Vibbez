@@ -8,7 +8,9 @@ import InfoLayout from "./layouts/info"
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from "./theme/theme";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
   <ChakraProvider theme={theme}>
     <BrowserRouter>
       <React.StrictMode>
@@ -22,6 +24,5 @@ ReactDOM.render(
         </HashRouter>
       </React.StrictMode>
     </BrowserRouter>
-  </ChakraProvider>,
-  document.getElementById("root")
+  </ChakraProvider>
 );
