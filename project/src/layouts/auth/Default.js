@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 import { FaChevronLeft } from "react-icons/fa";
 
 function AuthIllustration(props) {
-    const { children, illustrationBackground } = props;
+    const { children, } = props;
     // Chakra color mode
     return (
         <Flex position='relative' h='max-content'>
@@ -43,7 +43,6 @@ function AuthIllustration(props) {
                     position='absolute'
                     right='0px'>
                     <Flex
-                        bg={`url(${illustrationBackground})`}
                         justify='center'
                         align='end'
                         w='100%'

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import "./css/App.css";
 import "./css/Header.css";
 import "./css/Footer.css";
+import "./css/Auth.css";
 import { HashRouter, Route, Switch, Redirect, BrowserRouter } from "react-router-dom";
 import AuthLayout from "./layouts/auth";
 import HomeLayout from "./layouts/home";

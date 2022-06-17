@@ -1,0 +1,14 @@
+.SingInLeft{
+    border-radius: 15px 0px 0px 15px;
+    background-color: #388888;
+    float: left;
+    border: 1px solid black;
+    border-right: none;
+
+}
+.SingInRight{
+    float: right;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid black;
+    border-left: none;
+}
