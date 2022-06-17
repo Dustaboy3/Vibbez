@@ -17,7 +17,7 @@ export default function Footer(){
         className="footer"
         bg={mainColor}
         >
-            
+
         </Flex>
     )//end of return
 }//end of export default function footter
