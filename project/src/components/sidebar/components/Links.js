@@ -14,7 +14,7 @@ export function SidebarLinks(props) {
   );
   let activeIcon = useColorModeValue("orange.300", "white");
   let textColor = useColorModeValue("secondaryGray.500", "white");
-  let brandColor = useColorModeValue("orange.300", "orange.300");
+  let brandColor = useColorModeValue("brand.100", "brand.100");
 
   const { routes } = props;
 
