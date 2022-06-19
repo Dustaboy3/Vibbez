@@ -22,7 +22,7 @@ function AuthIllustration(props) {
                     lg: "100vh",
                     xl: "100vh",
                 }}
-                w='100%'
+                w='100vw'
                 mx='auto'
                 justifyContent='start'
                 direction='column'>
@@ -35,23 +35,7 @@ function AuthIllustration(props) {
                     })}>
                 </NavLink>
                 {children}
-                <Box
-                    display={{ base: "none", md: "block" }}
-                    h='100%'
-                    minH='100vh'
-                    w={{ lg: "50vw", "2xl": "44vw" }}
-                    position='absolute'
-                    right='0px'>
-                    <Flex
-                        justify='center'
-                        align='end'
-                        w='100%'
-                        h='100%'
-                        bgSize='cover'
-                        bgPosition='50%'
-                        position='absolute'
-                        borderBottomLeftRadius={{ lg: "120px", xl: "200px" }}></Flex>
-                </Box>
+
                 <Footer />
             </Flex>
         </Flex>
