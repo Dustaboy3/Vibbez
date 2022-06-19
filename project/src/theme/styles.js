@@ -16,7 +16,7 @@ export const globalStyles = {
         letterSpacing: "-0.5px",
       },
       input: {
-        color: "orange.500",
+        color: "brand.100",
       },
       html: {
         fontFamily: "DM Sans",

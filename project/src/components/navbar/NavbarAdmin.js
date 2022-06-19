@@ -30,7 +30,7 @@ export default function AdminNavbar(props) {
   const { secondary, message, brandText } = props;
 
   // Here are all the props that may change depending on navbar's type or state.(secondary, variant, scrolled)
-  let mainText = useColorModeValue("orange.300", "white");
+  let mainText = useColorModeValue("brand.100", "white");
   let secondaryText = useColorModeValue("orange.500", "white");
   let navbarPosition = "fixed";
   let navbarFilter = "none";
