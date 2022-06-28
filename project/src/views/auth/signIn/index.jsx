@@ -1,9 +1,10 @@
 import React from "react";
 import {
-    Flex,
+    Flex, Button,
 } from "@chakra-ui/react";
 import * as Components from "../../../components/Signup-Login/components";
 import DefaultAuth from "../../../layouts/auth/Default";
+import { FcGoogle } from "react-icons/fc";
 
 function SignIn() {
     const [show, setShow] = React.useState(false);
@@ -30,7 +31,38 @@ function SignIn() {
                     <Components.Container>
                         <Components.SignUpContainer signingIn={signIn}>
                             <Components.Form>
-                                <Components.Title>Create Account</Components.Title>
+                                <Components.TitleElevated className="titleElevated">Create Account</Components.TitleElevated>
+                                <div class="navigation">
+                                    <ul>
+                                        <li class="icon">
+                                            <a>
+                                                <span class="icon">
+                                                    <Button as={FcGoogle}
+                                                        className="Icons"> </Button>
+                                                </span>
+                                                <span class="text">Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li class="icon">
+                                            <a>
+                                                <span class="icon">
+                                                    <Button as={FcGoogle}
+                                                        className="Icons"> </Button>
+                                                </span>
+                                                <span class="text">Google</span>
+                                            </a>
+                                        </li>
+                                        <li class="icon">
+                                            <a>
+                                                <span class="icon">
+                                                    <Button as={FcGoogle}
+                                                        className="Icons"> </Button>
+                                                </span>
+                                                <span class="text">MetaMask</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                                 <Components.Input type="text" placeholder="Name" />
                                 <Components.Input type="email" placeholder="Email" />
                                 <Components.Input type="password" placeholder="Password" />
@@ -39,7 +71,38 @@ function SignIn() {
                         </Components.SignUpContainer>
                         <Components.SignInContainer signingIn={signIn}>
                             <Components.Form>
-                                <Components.Title>Sign in</Components.Title>
+                                <Components.TitleElevated>Sign in</Components.TitleElevated>
+                                <div class="navigation">
+                                    <ul>
+                                        <li class="icon">
+                                            <a>
+                                                <span class="icon">
+                                                    <Button as={FcGoogle}
+                                                        className="Icons"> </Button>
+                                                </span>
+                                                <span class="text">Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li class="icon">
+                                            <a>
+                                                <span class="icon">
+                                                    <Button as={FcGoogle}
+                                                        className="Icons"> </Button>
+                                                </span>
+                                                <span class="text">Google</span>
+                                            </a>
+                                        </li>
+                                        <li class="icon">
+                                            <a>
+                                                <span class="icon">
+                                                    <Button as={FcGoogle}
+                                                        className="Icons"> </Button>
+                                                </span>
+                                                <span class="text">MetaMask</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                                 <Components.Input type="email" placeholder="Email" />
                                 <Components.Input type="password" placeholder="Password" />
                                 <Components.Anchor href="#">Forgot your password?</Components.Anchor>
