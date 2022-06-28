@@ -13,3 +13,57 @@
     border: 1px solid black;
     border-left: none;
 }
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 5vw;
+    z-index: 1;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.navigation ul li:hover a .icon {
+    transform: translateY(-25px);
+    border-color: #388888;
+    border-width: 3px;
+}
+
+.navigation ul li a .text {
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.navigation ul li:hover a .text {
+    opacity: 1;
+    transform: translateY(10px);
+}

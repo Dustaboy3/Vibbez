@@ -21,13 +21,13 @@ export const SignUpContainer = styled.div`
   opacity: 0;
   z-index: 1;
   ${props =>
-        props.signingIn !== true
-            ? `
+    props.signingIn !== true
+      ? `
   transform: translateX(100%);
 	opacity: 1;
 	z-index: 5;
 	`
-            : null}
+      : null}
 `;
 
 export const SignInContainer = styled.div`
@@ -55,6 +55,11 @@ export const Form = styled.form`
 export const Title = styled.h1`
   font-weight: bold;
   margin: 0;
+`;
+
+export const TitleElevated = styled.h1`
+  font-weight: bold;
+  min-height: 60px;
 `;
 
 export const Input = styled.input`
@@ -107,7 +112,7 @@ export const OverlayContainer = styled.div`
   transition: transform 0.6s ease-in-out;
   z-index: 100;
   ${props =>
-        props.signingIn !== true ? `transform: translateX(-100%);` : null}
+    props.signingIn !== true ? `transform: translateX(-100%);` : null}
 `;
 
 export const Overlay = styled.div`
